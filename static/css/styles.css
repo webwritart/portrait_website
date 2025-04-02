@@ -148,7 +148,7 @@ body {
         padding: 2%;
     }
     .full-size-img {
-        padding: 5% 20%;
+        padding: 5% 0%;
     }
     .back-btn-container {
         justify-content: start;
@@ -267,6 +267,9 @@ body {
       width: 20%;
       font-size: 1.4rem;
    }
+   .full-size-img {
+        padding: 5% 20%;
+    }
 }
 @media (min-width: 1900px) {
     .cta-btn {
