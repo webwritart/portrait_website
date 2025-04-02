@@ -1,0 +1,10 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="back-btn-container">
+    <a href="{{url_for('main.home')}}"><div class="back-btn">Back to Gallery</div></a>
+</div>
+<div class="full-size-img">
+    <img src="{{img_url}}" loading="lazy">
+</div>
+
+{% endblock %}

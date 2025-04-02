@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<style>
+
+</style>
+
+<div class="gallery-container">
+    {% for img in thumbnails %}
+    <a href="{{url_for('main.full_size_image', image_url=img)}}">
+        <div class="image-box" style="background:url({{img}}); background-repeat: no-repeat; background-size: cover;
+        background-position: center;"><div class="gallery-img-button">Click to view</div></div>
+    </a>
+    {% endfor %}
+</div>
+
+
+{% endblock %}
